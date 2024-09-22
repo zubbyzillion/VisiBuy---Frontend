@@ -4,7 +4,7 @@ import Header from "../ui/Header";
 import Footer from "../ui/Footer";
 
 function PageNotFound() {
-	const navigate= useNavigate();
+	// const navigate= useNavigate();
 	const error = useRouteError();
 	console.error(error);
 
@@ -19,7 +19,7 @@ function PageNotFound() {
 							Sorry, this page does not exist or is currently under construction.
 						</p>
 
-						<a to="/"  className="cta">&larr; Go back to homepage</a>
+						<a href="/"  className="cta">&larr; Go back to homepage</a>
 					</div>
 				</section>
 			</main>
