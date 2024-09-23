@@ -1,6 +1,7 @@
 import { FaFacebook } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa6";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa6";
+// import { FaInstagram } from "react-icons/fa6";
+// import { FaXTwitter } from "react-icons/fa6";
 
 function Footer() {
 	return (
@@ -14,19 +15,24 @@ function Footer() {
 					/>
 				</a>
 				<ul className="social_links">
-					<li>
+					{/* <li>
 						<a href="#">
 							<FaInstagram />
 						</a>
-					</li>
+					</li> */}
 					<li>
 						<a href="https://www.facebook.com/profile.php?id=61563139237527&mibextid=LQQJ4d">
 							<FaFacebook />
 						</a>
 					</li>
-					<li>
+					{/* <li>
 						<a href="#">
 							<FaXTwitter />
+						</a>
+					</li> */}
+					<li>
+						<a href="#">
+							<FaYoutube />
 						</a>
 					</li>
 				</ul>

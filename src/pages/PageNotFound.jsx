@@ -1,4 +1,4 @@
-import { useRouteError, useNavigate } from "react-router-dom";
+import { useRouteError} from "react-router-dom";
 
 import Header from "../ui/Header";
 import Footer from "../ui/Footer";
